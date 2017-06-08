@@ -1,0 +1,36 @@
+{
+  "name": "lerolero",
+  "version": "0.0.1",
+  "description": "Gerador de lerolero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --single-quote --no-semi --no-bracket-spacing --trailing-comma none --write index.js",
+    "lint": "npm run prettify && xo index.js --fix"
+  },
+  "bin": {
+    "lerolero": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiamsantos/lerolero.git"
+  },
+  "keywords": [],
+  "author": "Thiago Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiamsantos/lerolero/issues"
+  },
+  "homepage": "https://github.com/thiamsantos/lerolero#readme",
+  "dependencies": {
+    "shuffle-array": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.4.4",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": true
+  }
+}

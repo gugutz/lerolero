@@ -22,9 +22,7 @@
     "url": "https://github.com/thiamsantos/lerolero/issues"
   },
   "homepage": "https://github.com/thiamsantos/lerolero#readme",
-  "dependencies": {
-    "shuffle-array": "^1.0.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "prettier": "^1.4.4",
     "xo": "^0.18.2"

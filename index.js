@@ -1,5 +1,3 @@
-const shuffle = require('shuffle-array')
-
 const tab0 = [
   'Caros amigos, ',
   'Por outro lado, ',
@@ -129,12 +127,17 @@ const tab3 = [
   'do remanejamento dos quadros funcionais.'
 ]
 
+function randomItem(arr) {
+  const index = Math.floor(Math.random() *  (arr.length - 1))
+  return arr[index]
+}
+
 function lerolero() {
   return (
-    shuffle(tab0, {copy: true})[0] +
-    shuffle(tab1, {copy: true})[0] +
-    shuffle(tab2, {copy: true})[0] +
-    shuffle(tab3, {copy: true})[0]
+    randomItem(tab0) +
+    randomItem(tab1) +
+    randomItem(tab2) +
+    randomItem(tab3)
   )
 }
 

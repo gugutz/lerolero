@@ -45,4 +45,4 @@ lerolero()
 ```
 
 ## Licença
-[MIT license](LICENSE) &copy; [Thiago Santos](https://thiamsantos.github.io/)
+[MIT license](LICENSE) &copy; [Gustavo P Borges](https://gugutz.github.io/)

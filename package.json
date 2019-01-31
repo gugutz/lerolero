@@ -24,7 +24,7 @@
   "homepage": "https://github.com/gugutz/lerolero#readme",
   "dependencies": {},
   "devDependencies": {
-    "prettier": "^1.4.4",
+    "prettier": "^1.16.3",
     "xo": "^0.18.2"
   },
   "xo": {

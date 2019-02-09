@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - '4'
+  - '6'
+jobs:
+  include:
+    - stage: Lint and test
+      name: Test
+      script: npm test
+    - script: npm run lint
+      name: Lint
+    - stage: deploy
+      if: branch = master
+      name: Release to npm
+      script: npm run semantic-release
+    - script: npm run coveralls
+      name: Coveralls

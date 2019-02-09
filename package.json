@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettify": "prettier --single-quote --no-semi --no-bracket-spacing --trailing-comma none --write index.js",
-    "lint": "npm run prettify && xo index.js --fix"
+    "lint": "npm run prettify && xo index.js --fix",
+    "semantic-release": "semantic-release"
   },
   "bin": {
     "lerolero": "./cli.js"
@@ -24,7 +25,9 @@
   "homepage": "https://github.com/gugutz/lerolero#readme",
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^3.0.2",
     "prettier": "^1.16.3",
+    "semantic-release": "^15.13.3",
     "xo": "^0.18.2"
   },
   "xo": {

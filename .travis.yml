@@ -4,11 +4,6 @@ node_js:
   - '6'
 jobs:
   include:
-    - stage: Lint and test
-      name: Test
-      script: npm test
-    - script: npm run lint
-      name: Lint
     - stage: deploy
       if: branch = master
       name: Release to npm

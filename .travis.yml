@@ -8,5 +8,3 @@ jobs:
       if: branch = master
       name: Release to npm
       script: npm run semantic-release
-    - script: npm run coveralls
-      name: Coveralls

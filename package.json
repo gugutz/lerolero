@@ -25,7 +25,6 @@
   "homepage": "https://github.com/gugutz/lerolero#readme",
   "dependencies": {},
   "devDependencies": {
-    "coveralls": "^3.0.2",
     "prettier": "^1.16.3",
     "semantic-release": "^15.13.3",
     "xo": "^0.18.2"
